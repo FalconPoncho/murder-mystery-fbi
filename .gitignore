@@ -1,2 +1,4 @@
 venv/
 mystery.db
+__pycache__/
+*.py[cod]
