@@ -1,0 +1,16 @@
+[server]
+enableStaticServing = true
+
+[[theme.fontFaces]]
+family = "oxanium"
+url = "app/static/fonts/oxanium.ttf"
+
+[theme]
+base = "dark"
+backgroundColor = "black"
+primaryColor = "blue"
+secondaryBackgroundColor = "blue"
+textColor = "white"
+linkColor = "blue"
+linkUnderline = false
+font = "oxanium"

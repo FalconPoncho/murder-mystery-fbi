@@ -4,3 +4,6 @@ An application in support of a very in-depth murder mystery party I am running. 
 
 - A read-only email service with account-specific views
 - A "bodycam" video player
+- Real-time internet deepfake tracker (not real)
+
+The applications are accessed through a unified Streamlit interface and run on an embedded SQLite database for ease of deployment.
