@@ -16,7 +16,7 @@ page = st.navigation(page_list, position="hidden")
 
 st.sidebar.page_link(
     page_dict["home"],
-    label="Home",
+    label="FBI Home",
     icon=":material/house:",
     use_container_width=True,
 )
