@@ -1,10 +1,37 @@
 import streamlit as st
+from streamlit_extras.app_logo import add_logo
 
+# st.logo("static/images/fbi_logo.png", size="large")
+st.sidebar.image("static/images/fbi_logo_bw.png")
 
-page = st.navigation([
-    st.Page("pages/home.py", title="Home"),
-    st.Page("pages/login.py", title="Sign out"),
-])
+page_dict = {
+    "home": st.Page("pages/home.py", title="Unified Access Portal"),
+    "vars": st.Page("pages/vars.py", title="V.A.R.S."),
+    "login": st.Page("pages/login.py", title="Unified Access Portal", default=True),
+}
+
+page_list = list(page_dict.values())
+
+page = st.navigation(page_list, position="hidden")
+
+st.sidebar.page_link(
+    page_dict["home"],
+    label="Home",
+    icon=":material/house:",
+    use_container_width=True,
+)
+st.sidebar.page_link(
+    page_dict["vars"],
+    label="V.A.R.S.",
+    icon=":material/visibility:",
+    use_container_width=True,
+)
+st.sidebar.page_link(
+    page_dict["login"],
+    label="Sign out",
+    icon=":material/logout:",
+    use_container_width=True,
+)
 
 page.run()
 
