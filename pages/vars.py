@@ -29,6 +29,9 @@ Invalid access code.
 All usage of V.A.R.S. is monitored and logged. Unauthorized use of V.A.R.S. is subject to administrative and criminal penalties.
 """
 
+
+st.set_page_config(layout="centered")
+
 videos = {"test": "static/videos/IMG_5157.MOV"}
 
 st.title("Visual Archive Retrieval System")

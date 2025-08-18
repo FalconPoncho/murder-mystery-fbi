@@ -1,6 +1,7 @@
 import streamlit as st
-import base64
 
+
+st.set_page_config(layout="centered")
 st.image("static/images/fbi_banner.png")
 
 st.image("static/images/fbi_action_photo.png", use_container_width=False)

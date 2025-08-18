@@ -3,6 +3,7 @@ from sqlalchemy import text
 from backend.login import login
 from utils.utils import hide_sidebar
 
+
 FOUO_WARNING = """
 Use of this system is \"FOR OFFICIAL USE ONLY\". \
 This system is subject to monitoring. Therefore, \
@@ -36,6 +37,8 @@ def login_box():
                 st.session_state["username"] = username
                 st.switch_page("pages/home.py")
 
+
+st.set_page_config(layout="centered")
 
 hide_sidebar()
 
