@@ -42,6 +42,8 @@ st.set_page_config(layout="centered")
 
 hide_sidebar()
 
+st.session_state.open_mail = None
+
 image_cols = st.columns(3)
 image_cols[1].image("static/images/fbi_logo_bw.png")
 
