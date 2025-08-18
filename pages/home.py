@@ -1,6 +1,27 @@
 import streamlit as st
 
 
+@st.dialog("Add a tip?")
+def tip_screen():
+    tip_columns = st.columns(3)
+    if tip_columns[0].button("100%", type="primary", use_container_width=True):
+        st.rerun()
+    if tip_columns[1].button("125%", type="primary", use_container_width=True):
+        st.rerun()
+    if tip_columns[2].button("150%", type="primary", use_container_width=True):
+        st.rerun()
+    custom = st.empty()
+    with custom:
+        custom_button = st.button("Custom", type="primary", use_container_width=True)
+        if custom_button:
+            st.error("Out of order. Please select another option.")
+    no_tip = st.empty()
+    with no_tip:
+        no_tip_button = st.button("No tip :(", type="primary", use_container_width=True)
+        if no_tip_button:
+            st.error("Out of order. Please select another option.")
+
+
 st.set_page_config(layout="centered")
 st.image("static/images/fbi_banner.png")
 
@@ -21,7 +42,8 @@ with columns[0]:
     st.markdown(":blue[ECAP]")
     st.markdown(":blue[ViCAP]")
     st.subheader("FBI Jobs", anchor=False)
-    st.markdown(":blue[Submit a Tip]")
+    # st.markdown(":blue[Submit a Tip]")
+    st.button(":blue[Submit a Tip]", type="tertiary", on_click=tip_screen)
     st.markdown(":blue[Crime Statistics]")
     st.markdown(":blue[History]")
     st.markdown(":blue[FOIPA]")
