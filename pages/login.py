@@ -1,7 +1,7 @@
 import streamlit as st
 from sqlalchemy import text
 from backend.login import login
-from utils.utils import hide_sidebar
+from utils import hide_sidebar
 
 
 FOUO_WARNING = """
