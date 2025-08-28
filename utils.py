@@ -19,8 +19,10 @@ def hide_sidebar():
         unsafe_allow_html=True,
     )
 
-def write_no_mailto(message: str):
+def write_no_mailto(message: str, header_level: int = 0):
     safe_message = "@&#8203;".join(message.split("@"))
+    if header_level:
+        safe_message = "#"*header_level + " " + safe_message
     st.markdown(safe_message, unsafe_allow_html=True)
 
 @st.cache_data

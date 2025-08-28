@@ -42,8 +42,8 @@ with columns[1]:
         st.session_state.all_mail = mail(st.session_state.username, relationship)
 
         selection = st.dataframe(
-            st.session_state.all_mail.loc[:, ["sender_username", "subject"]],
-            column_order=("sender_username", "subject"),
+            st.session_state.all_mail.loc[:, ["sender_username", "subject", "time"]],
+            column_order=("sender_username", "subject", "time"),
             # column_config={
             #     "id": st.column_config.Column(),
             #     "Title": st.column_config.TextColumn(width=100),
@@ -55,4 +55,12 @@ with columns[1]:
             hide_index=True,
         )
     else:
-        st.write("This is an email.")
+        header = st.columns([2,1])
+        with header[0]:
+            write_no_mailto(st.session_state.open_mail["sender_username"], header_level=3)
+            write_no_mailto(f"to {st.session_state.open_mail['recipient_username']}")
+        with header[1]:
+            time = st.session_state.open_mail["time"].strftime("%A, %d %b %Y %H:%M")
+            st.markdown(f'<div style="text-align: right;">{time}</div>', unsafe_allow_html=True)
+        st.header(st.session_state.open_mail["subject"])
+        st.write(st.session_state.open_mail["body"])
