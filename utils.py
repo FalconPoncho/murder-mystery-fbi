@@ -35,7 +35,7 @@ def users() -> pd.DataFrame:
 
 @st.cache_data
 def mail(
-        user: str | int,
+        user: str,
         relationship: Literal["sender", "recipient"] | None = None
     ) -> pd.DataFrame:
     """
@@ -43,25 +43,24 @@ def mail(
 
     Parameters
     ----------
-    user : str | int
-        User ID or username.
+    user : str
+        Username.
     relationship : "sender", "recipient", or None, default None
         Whether to get only mail sent, only mail received, or all mail.
 
     """
     with Session(engine) as session:
-        is_id = isinstance(user, int)
         user_ = (
             session.query(User)
-            .where(User.id == user if is_id else User.username == user)
+            .where(User.username == user)
             .one()
         )
 
         query = session.query(Message)
         if relationship == "sender":
-            query = query.where(Message.sender_id.is_(user_.id))
+            query = query.where(Message.sender_username.is_(user_.username))
         elif relationship == "recipient":
-            query = query.where(Message.recipient_id.is_(user_.id))
+            query = query.where(Message.recipient_username.is_(user_.username))
 
         mail = pd.read_sql(
             query.statement,
@@ -71,13 +70,13 @@ def mail(
         users_ = users()
 
         mail = mail.merge(
-            users_.rename(columns={"id": "sender_id", "username": "sender_username"}),
-            on="sender_id",
+            users_.rename(columns={"username": "sender_username"}),
+            on="sender_username",
             how="left",
         )
         mail = mail.merge(
-            users_.rename(columns={"id": "recipient_id", "username": "recipient_username"}),
-            on="recipient_id",
+            users_.rename(columns={"username": "recipient_username"}),
+            on="recipient_username",
             how="left",
         )
 
