@@ -1,7 +1,6 @@
 import streamlit as st
 from sqlalchemy import text
-from backend.login import login
-from utils import hide_sidebar
+from utils import hide_sidebar, login
 
 
 FOUO_WARNING = """
@@ -34,7 +33,7 @@ def login_box():
         if submitted:
             success = login(username=username, password=password)
             if success:
-                st.session_state["username"] = username
+                st.session_state.username = username
                 st.switch_page("pages/home.py")
 
 

@@ -1,4 +1,8 @@
 import streamlit as st
+from db import init_db
+
+
+init_db()
 
 st.sidebar.image("static/images/fbi_logo_bw.png")
 

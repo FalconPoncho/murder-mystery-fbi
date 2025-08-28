@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from utils import write_no_mailto, mail
 
 
 def open_mail():
@@ -12,11 +13,12 @@ st.set_page_config(layout="wide")
 columns = st.columns([1,5])
 
 with columns[0]:
-    selected_mailbox = "Inbox"
+    if "selected_mailbox" not in st.session_state:
+        st.session_state.selected_mailbox = "Inbox"
     def select_mailbox(value):
-        selected_mailbox = value
+        st.session_state.selected_mailbox = value
         st.session_state.open_mail = None
-    for option in ("Inbox", "Sent", "Drafts"):
+    for option in ("Inbox", "Sent"):#, "Drafts"):
         st.button(
             option,
             type="primary",
@@ -27,14 +29,21 @@ with columns[0]:
 
 with columns[1]:
     if st.session_state.open_mail is None:
-        st.session_state.all_mail = pd.DataFrame({
-            "id": [6,7,8,9],
-            "From": [1,2,3,4],
-            "Title": [5,6,7,8],
-        })
+        # st.session_state.all_mail = pd.DataFrame({
+        #     "id": [6,7,8,9],
+        #     "From": [1,2,3,4],
+        #     "Title": [5,6,7,8],
+        # })
+        if st.session_state.selected_mailbox == "Inbox":
+            relationship = "recipient"
+        elif st.session_state.selected_mailbox == "Sent":
+            relationship = "sender"
+
+        st.session_state.all_mail = mail(st.session_state.username, relationship)
+
         selection = st.dataframe(
-            st.session_state.all_mail,
-            column_order=("From", "Title"),
+            st.session_state.all_mail.loc[:, ["sender_username", "subject"]],
+            column_order=("sender_username", "subject"),
             # column_config={
             #     "id": st.column_config.Column(),
             #     "Title": st.column_config.TextColumn(width=100),
