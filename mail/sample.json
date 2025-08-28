@@ -1,7 +1,10 @@
 [
     {
         "sender_username": "amanda.garcia@fbi.gov",
-        "recipient_username": "marcus.holloway@fbi.gov",
+        "recipients": [
+            "marcus.holloway@fbi.gov",
+            "amanda.garcia@fbi.gov"
+        ],
         "subject": "My subject",
         "body": "My body",
         "time": "2024-07-30T14:30:00"

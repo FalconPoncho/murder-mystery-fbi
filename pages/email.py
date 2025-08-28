@@ -58,7 +58,8 @@ with columns[1]:
         header = st.columns([2,1])
         with header[0]:
             write_no_mailto(st.session_state.open_mail["sender_username"], header_level=3)
-            write_no_mailto(f"to {st.session_state.open_mail['recipient_username']}")
+            recipients = ", ".join(st.session_state.open_mail["recipient_usernames"])
+            write_no_mailto(f"to {recipients}")
         with header[1]:
             time = st.session_state.open_mail["time"].strftime("%A, %d %b %Y %H:%M")
             st.markdown(f'<div style="text-align: right;">{time}</div>', unsafe_allow_html=True)
