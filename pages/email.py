@@ -66,3 +66,5 @@ with columns[1]:
             st.markdown(f'<div style="text-align: right;">{time}</div>', unsafe_allow_html=True)
         st.header(st.session_state.open_mail["subject"])
         st.write(st.session_state.open_mail["body"])
+        if attachment := st.session_state.open_mail.get("attachment"):
+            st.video(attachment)

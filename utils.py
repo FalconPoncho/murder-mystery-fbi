@@ -69,6 +69,7 @@ def mail(
                 Message.subject,
                 Message.body,
                 Message.time,
+                Message.attachment,
                 recipients_concat,
             )
             .select_from(Message)

@@ -1,0 +1,45 @@
+[
+  {
+    "sender_username": "jackmoore@neuralink.com",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Continued Support",
+    "body": "Agent Turk,\n\nWith our sales representatives no longer contracted to work in-person at the Asheville office, I want to assure you that I will continue to provide whatever support you need remotely. It is very important to us that IRIS is a success.\n\nWhen we win, you win.\n\nJack Moore\n\nSenior Product Owner\n\nNeuralink, Inc.",
+    "time": "2070-07-08T10:01:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["jackmoore@neuralink.com"],
+    "subject": "Re: Continued Support",
+    "body": "Jack,\n\nI promise I am just as worried about IRIS succeeding as you are. Save me the synergy crap.",
+    "time": "2070-07-08T13:28:00"
+  },
+  {
+    "sender_username": "jackmoore@neuralink.com",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Call me",
+    "body": "Agent Turk,\n\nWe have a bit of a situation. Cleanup on aisle 2...\n\nJack Moore\n\nSenior Product Owner\n\nNeuralink, Inc.",
+    "time": "2070-07-28T15:01:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["jackmoore@neuralink.com"],
+    "subject": "Re: Call me",
+    "body": "Jack,\n\nThis is too big to fix. I'm not wiping your ass when you shit yourself.",
+    "time": "2070-07-28T15:53:00"
+  },
+  {
+    "sender_username": "jackmoore@neuralink.com",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Neuralink Demonstration",
+    "body": "Agent Turk,\n\nI think this is a great time to demonstrate the surveillance force multiplier IRIS will provide the FBI. Your agents aren't the only ones with implants. Enjoy the home movie!\n\nWhen we win, you win.\n\nJack Moore\n\nSenior Product Owner\n\nNeuralink, Inc.",
+    "time": "2070-07-28T16:10:00",
+    "attachment": "static/videos/MannyBlackmail.mp4"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["jackmoore@neuralink.com"],
+    "subject": "Re: Neuralink Demonstration",
+    "body": "Jack,\n\nSorry for doubting you. I'll make sure thing stay quiet.\n\nWyatt",
+    "time": "2070-07-28T16:19:00"
+  }
+]

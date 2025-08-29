@@ -46,6 +46,7 @@ class Message(Base):
     subject = Column(Text, nullable=False)
     body = Column(Text, nullable=False)
     time = Column(DateTime, nullable=False)
+    attachment = Column(Text)
 
     sender = relationship(
         "User",
@@ -105,6 +106,7 @@ def init_db():
                 User(username="mote.research@fbi.gov", real=False),
                 User(username="deputy.dir.strattech@fbi.gov", real=False),
                 User(username="iris.pmo@fbi.gov", real=False),
+                User(username="jackmoore@neuralink.com", real=False),
             ]
             session.add_all(users)
             session.commit()
@@ -135,6 +137,7 @@ def init_db():
                         subject=email["subject"],
                         body=email["body"],
                         time=datetime.fromisoformat(email["time"]),
+                        attachment=email.get("attachment")
                     )
                     messages.append(msg)
 
