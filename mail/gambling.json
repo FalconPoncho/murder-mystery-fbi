@@ -1,0 +1,163 @@
+[
+  {
+    "sender_username": "marcus.d.holloway@fbi.gov",
+    "recipients": ["amelia.p.goulding@fbi.gov", "oliver.h.cox@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Bet on the Raleigh Game Outcome",
+    "body": "Team,\n\nI’m putting $1,000 on Raleigh to take the series. Amelia, you sure you want to match or are you feeling lucky again?\n\n- Marcus",
+    "time": "2070-07-08T09:12:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "oliver.h.cox@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Re: Bet on the Raleigh Game Outcome",
+    "body": "Marcus,\n\nI’m confident — $1,500 on the opposing team. Let’s see who’s luckier this time.\n\n- Amelia",
+    "time": "2070-07-08T09:27:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "amelia.p.goulding@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Re: Bet on the Raleigh Game Outcome",
+    "body": "I’ll take $500 with Marcus. Sorry Amelia — odds are not in your favor.\n\n- Oliver",
+    "time": "2070-07-08T09:33:00"
+  },
+  {
+    "sender_username": "maverick.w.bell@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "amelia.p.goulding@fbi.gov", "oliver.h.cox@fbi.gov"],
+    "subject": "Re: Bet on the Raleigh Game Outcome",
+    "body": "$500 on Marcus as well. Amelia, I’m starting to think it’s a tradition to lose your bets.\n\n- Maverick",
+    "time": "2070-07-08T09:45:00"
+  },
+  {
+    "sender_username": "marcus.d.holloway@fbi.gov",
+    "recipients": ["amelia.p.goulding@fbi.gov", "oliver.h.cox@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Raleigh Game Result",
+    "body": "Team,\n\nRaleigh wins. Amelia, looks like your streak continues. Better luck next round!\n\n- Marcus",
+    "time": "2070-07-08T21:12:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "oliver.h.cox@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Re: Raleigh Game Result",
+    "body": "Ugh… another loss. I need a new strategy or maybe I just shouldn’t bet.\n\n- Amelia",
+    "time": "2070-07-08T21:28:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "amelia.p.goulding@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Next Bet Idea",
+    "body": "Guys, what do you think about betting on the internal coffee machine temperature? Highest temp at 10AM wins.\n\n- Oliver",
+    "time": "2070-07-12T08:03:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "oliver.h.cox@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Re: Next Bet Idea",
+    "body": "I’ll go 68°C — it feels lucky.\n\n- Amelia",
+    "time": "2070-07-12T08:12:00"
+  },
+  {
+    "sender_username": "maverick.w.bell@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "amelia.p.goulding@fbi.gov", "oliver.h.cox@fbi.gov"],
+    "subject": "Re: Next Bet Idea",
+    "body": "I’ll take 70°C. Amelia… this is your chance to break the curse!\n\n- Maverick",
+    "time": "2070-07-12T08:18:00"
+  },
+  {
+    "sender_username": "marcus.d.holloway@fbi.gov",
+    "recipients": ["amelia.p.goulding@fbi.gov", "oliver.h.cox@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Coffee Machine Bet Outcome",
+    "body": "Result: 70°C. Maverick wins. Amelia… sigh, you guessed 68. Same as usual!\n\n- Marcus",
+    "time": "2070-07-12T10:02:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "oliver.h.cox@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Re: Coffee Machine Bet Outcome",
+    "body": "I swear next time I’ll pick something impossible to lose.\n\n- Amelia",
+    "time": "2070-07-12T10:09:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "amelia.p.goulding@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "SAC Bet",
+    "body": "Next up: guessing how many emails SAC Garcia sends before COB. 1 point per email, loser buys donuts.\n\n- Oliver",
+    "time": "2070-07-15T09:15:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "oliver.h.cox@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Re: SAC Bet",
+    "body": "I’ll go with 18 emails… feeling lucky.\n\n- Amelia",
+    "time": "2070-07-15T09:23:00"
+  },
+  {
+    "sender_username": "maverick.w.bell@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "amelia.p.goulding@fbi.gov", "oliver.h.cox@fbi.gov"],
+    "subject": "Re: SAC Bet",
+    "body": "I’ll guess 12. Amelia… you’re about to buy the donuts.\n\n- Maverick",
+    "time": "2070-07-15T09:25:00"
+  },
+  {
+    "sender_username": "marcus.d.holloway@fbi.gov",
+    "recipients": ["amelia.p.goulding@fbi.gov", "oliver.h.cox@fbi.gov", "maverick.w.bell@fbi.gov"],
+    "subject": "Email Bet Result",
+    "body": "Total sent: 12. Maverick wins again. Amelia… buy the donuts!\n\n- Marcus",
+    "time": "2070-07-15T17:02:00"
+  },
+  {
+    "sender_username": "maverick.w.bell@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "amelia.p.goulding@fbi.gov", "oliver.h.cox@fbi.gov"],
+    "subject": "Drug Bust Bet",
+    "body": "Hear me out: most street value in drugs seized by the end of the week. $1,000 each.\n\n- Maverick",
+    "time": "2070-07-28T09:29:00"
+  },
+  {
+    "sender_username": "marcus.d.holloway@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov", "amelia.p.goulding@fbi.gov", "oliver.h.cox@fbi.gov"],
+    "subject": "Re: Drug Bust Bet",
+    "body": "I'm gonna kick your asses. Might as well give me the money now.\n\n- Marcus",
+    "time": "2070-07-28T09:43:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov", "marcus.d.holloway@fbi.gov", "oliver.h.cox@fbi.gov"],
+    "subject": "Re: Drug Bust Bet",
+    "body": "I'm 30k in debt from this, let's not.\n\nPlus, you don't even go out in the field Maverick. How are you supposed to win??\n\n- Amelia",
+    "time": "2070-07-28T10:13:00"
+  },
+  {
+    "sender_username": "maverick.w.bell@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov", "amelia.p.goulding@fbi.gov", "oliver.h.cox@fbi.gov"],
+    "subject": "Re: Re: Drug Bust Bet",
+    "body": "Ah come on Amelia, you gotta win some time!! I'll bet on Oliver. If he wins I win too, if he loses I'll split half his losses. My horse got this",
+    "time": "2070-07-28T10:15:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov", "marcus.d.holloway@fbi.gov", "amelia.p.goulding@fbi.gov"],
+    "subject": "Re: Re: Re: Drug Bust Bet",
+    "body": "I'm in. Come on Amelia I know you want to.\n\n- Oliver",
+    "time": "2070-07-28T11:07:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov", "marcus.d.holloway@fbi.gov", "oliver.h.cox@fbi.gov"],
+    "subject": "Re: Re: Re: Drug Bust Bet",
+    "body": "Fine im in\n\n- Amelia",
+    "time": "2070-07-28T11:56:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov", "marcus.d.holloway@fbi.gov", "oliver.h.cox@fbi.gov"],
+    "subject": "Marcus",
+    "body": "This fucking sucks. And last week's bet is off i guess\n\n- Amelia",
+    "time": "2070-09-01T13:51:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov", "marcus.d.holloway@fbi.gov", "amelia.p.goulding@fbi.gov"],
+    "subject": "Re: Marcus",
+    "body": "yeah",
+    "time": "2070-09-01T15:38:00"
+  }
+]
