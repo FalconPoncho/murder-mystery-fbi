@@ -90,8 +90,17 @@ def init_db():
     with Session(engine) as session:
         if session.query(User).count() == 0:
             users = [
-                User(username="amanda.garcia@fbi.gov", password="test", real=True),
-                User(username="marcus.holloway@fbi.gov", password="test", real=True),
+                User(username="amanda.j.garcia@fbi.gov", password="$$qu33nb33$$", real=True),
+                User(username="marcus.d.holloway@fbi.gov", password="BureauLawyer39#(", real=True),
+                User(username="wyatt.e.turk@fbi.gov", password="$1337techbro$", real=True),
+                User(username="noah.f.englund@fbi.gov", password="usa1USA!", real=True),
+                User(username="amelia.p.goulding@fbi.gov", password="xXl1v3_f4stXx", real=True),
+                User(username="rachel.m.moore@fbi.gov", password="r10d3j4n31r0!", real=True),
+                User(username="oliver.h.cox@fbi.gov", password="freudwasright1!", real=True),
+                User(username="nick.k.anand@fbi.gov", password="amanda<3", real=True),
+                User(username="maverick.w.bell@fbi.gov", password="@ssk1cker", real=True),
+                User(username="ava.y.violet@fbi.gov", password="f0xyl@dy", real=True),
+                
             ]
             session.add_all(users)
             session.commit()
