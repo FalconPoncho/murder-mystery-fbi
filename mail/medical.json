@@ -1,0 +1,114 @@
+[
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov"],
+    "subject": "Toxicology Report Delay",
+    "body": "Amanda,\n\nHeads up—the toxicology report on the Henderson case will be delayed by 24 hours. The lab equipment needed recalibration after an anomaly.\n\nRegards,\nRachel",
+    "time": "2070-07-12T08:43:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Re: Toxicology Report Delay",
+    "body": "Rachel,\n\nThanks for letting me know. That shouldn’t impact the timeline too much—I’ll adjust our internal deadlines.\n\n- Amanda",
+    "time": "2070-07-12T09:17:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Evidence Chain Clarification",
+    "body": "Nick,\n\nWhen you logged evidence item #4578 (blood vial), was it stored under cold-chain protocol? I want to ensure integrity before running DNA comparison.\n\nThanks,\nRachel",
+    "time": "2070-07-15T11:02:00"
+  },
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Re: Evidence Chain Clarification",
+    "body": "Rachel,\n\nYes, I confirmed cold storage at intake. Logged at 3.8°C. Chain of custody intact.\n\nBest,\nNick",
+    "time": "2070-07-15T11:29:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Field Autopsy Assistance",
+    "body": "Oliver,\n\nIf you’re available, I could use a hand documenting wound trajectories tomorrow at the training site mock-up. It’ll take about 90 minutes.\n\nRachel",
+    "time": "2070-07-18T14:41:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Re: Field Autopsy Assistance",
+    "body": "Rachel,\n\nCount me in. Just let me know what time and I’ll bring my kit.\n\n- Oliver",
+    "time": "2070-07-18T15:05:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["noah.f.englund@fbi.gov"],
+    "subject": "Protective Gear Request",
+    "body": "Noah,\n\nDo we have spare biohazard suits in evidence storage? I’ve got two interns shadowing next week and want them properly outfitted.\n\nThanks,\nRachel",
+    "time": "2070-07-19T10:15:00"
+  },
+  {
+    "sender_username": "noah.f.englund@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Re: Protective Gear Request",
+    "body": "Rachel,\n\nYes, we’ve got four new suits in sealed packs. I’ll reserve two under your name.\n\n-Noah",
+    "time": "2070-07-19T10:32:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["amelia.p.goulding@fbi.gov"],
+    "subject": "Case File Photos",
+    "body": "Amelia,\n\nDo you have the uncompressed versions of the scene photos from the July 7 case? The copies in my folder are too compressed for blood spatter analysis.\n\nRachel",
+    "time": "2070-07-20T16:54:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Re: Case File Photos",
+    "body": "Rachel,\n\nYes, I’ll transfer the originals over the secure channel before EOD.\n\n- Amelia",
+    "time": "2070-07-20T17:21:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov"],
+    "subject": "HIPAA Compliance Reminder",
+    "body": "Marcus,\n\nI wanted to confirm: internal distribution of autopsy photos still requires legal clearance for external contractors, correct? Just want to make sure we’re aligned.\n\nRachel",
+    "time": "2070-07-22T12:11:00"
+  },
+  {
+    "sender_username": "marcus.d.holloway@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Re: HIPAA Compliance Reminder",
+    "body": "Rachel,\n\nYes, contractors only get access if cleared and bound by NDA. Keep it tight—we’ve had issues in the past.\n\nMarcus",
+    "time": "2070-07-22T12:40:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Ballistics Consultation",
+    "body": "Wyatt,\n\nThe rounds recovered yesterday don’t match the preliminary caliber report. Can we review together in the lab tomorrow morning?\n\nRachel",
+    "time": "2070-07-24T08:56:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Re: Ballistics Consultation",
+    "body": "Rachel,\n\nYes, I’ll meet you at 0900. I’ll bring the comparison slides.\n\n-Wyatt",
+    "time": "2070-07-24T09:10:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov"],
+    "subject": "On-Site Exam Needed",
+    "body": "Amanda,\n\nCould you secure transport for me to the Old Mill site this Friday? I’ll need to do an on-site postmortem assessment.\n\nRachel",
+    "time": "2070-07-26T14:37:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Re: On-Site Exam Needed",
+    "body": "Rachel,\n\nConsider it done. Vehicle will be available at 0730 sharp.\n\n- Amanda",
+    "time": "2070-07-26T15:03:00"
+  }
+]

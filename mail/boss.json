@@ -1,0 +1,142 @@
+[
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov"],
+    "subject": "Building Access Logs",
+    "body": "Maverick,\n\nCan you send me a summary of unusual badge access attempts for the last two weeks? We may need it for an upcoming audit.\n\nThanks,\nAmanda",
+    "time": "2070-07-08T09:42:00"
+  },
+  {
+    "sender_username": "maverick.w.bell@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov"],
+    "subject": "Re: Building Access Logs",
+    "body": "Amanda,\n\nI’ll pull the report and have it over by COB today.\n\n- Maverick",
+    "time": "2070-07-08T11:10:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov"],
+    "subject": "FOIA Request Review",
+    "body": "Marcus,\n\nWe received another FOIA request touching on some sensitive case notes. I need your eyes on it before we release anything.\n\n-Amanda",
+    "time": "2070-07-09T14:33:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Follow-up on Autopsy Timeline",
+    "body": "Rachel,\n\nWhere do we stand on the Englund case autopsy report? I need to give DC a realistic timeline.\n\n-Amanda",
+    "time": "2070-07-10T08:59:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov"],
+    "subject": "Re: Follow-up on Autopsy Timeline",
+    "body": "Amanda,\n\nPreliminary results are complete. Final toxicology is still pending—likely another 48 hours.\n\n- Rachel",
+    "time": "2070-07-10T11:21:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Cyber Briefing Prep",
+    "body": "Nick,\n\nHQ has requested a quick-read brief on regional cyber threats. Can you prepare a one-pager by early next week?\n\nThanks,\nAmanda",
+    "time": "2070-07-11T10:47:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Court Appearance Reminder",
+    "body": "Wyatt,\n\nYou’re scheduled to testify on the Jefferson case Tuesday morning. Please coordinate with Marcus for prep.\n\n-Amanda",
+    "time": "2070-07-12T16:22:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["amelia.p.goulding@fbi.gov"],
+    "subject": "Case Load Update",
+    "body": "Amelia,\n\nHQ is asking for weekly updates on our domestic terrorism caseload. Please draft a consolidated report for Friday.\n\n-Amanda",
+    "time": "2070-07-13T09:05:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["noah.f.englund@fbi.gov"],
+    "subject": "Travel Request Approval",
+    "body": "Noah,\n\nYour travel request to Charlotte has been approved. Make sure logistics has your itinerary.\n\n-Amanda",
+    "time": "2070-07-14T12:51:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Informant Debrief",
+    "body": "Oliver,\n\nPlease schedule a debrief with the Henderson informant no later than Wednesday. Let me know if you anticipate any issues.\n\n-Amanda",
+    "time": "2070-07-15T08:28:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov"],
+    "subject": "Camera Outage",
+    "body": "Maverick,\n\nFacilities reported an outage on the south entrance cameras. Can you verify if this was scheduled maintenance or something unexpected?\n\n-Amanda",
+    "time": "2070-07-17T14:18:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Medical Leave Paperwork",
+    "body": "Rachel,\n\nPlease make sure Dr. Singh’s medical leave paperwork is routed through HR by Thursday.\n\nThanks,\nAmanda",
+    "time": "2070-07-18T10:40:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Encryption Issue",
+    "body": "Nick,\n\nI’ve been flagged about some agents not updating their encryption keys. Can you confirm compliance across your team?\n\n-Amanda",
+    "time": "2070-07-19T15:14:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov"],
+    "subject": "Grand Jury Scheduling",
+    "body": "Marcus,\n\nDOJ needs our proposed dates for the Jefferson case grand jury. Please get with Wyatt and send me options.\n\n-Amanda",
+    "time": "2070-07-21T09:33:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["amelia.p.goulding@fbi.gov"],
+    "subject": "Debrief Notes",
+    "body": "Amelia,\n\nForward me your debrief notes on the Asheville tech startup case once they’re cleaned up. I need them for Monday’s staff meeting.\n\n-Amanda",
+    "time": "2070-07-22T11:56:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["noah.f.englund@fbi.gov"],
+    "subject": "Case Coordination",
+    "body": "Noah,\n\nCross-check your current case assignments with Oliver’s. I don’t want duplication of effort.\n\nThanks,\nAmanda",
+    "time": "2070-07-24T13:07:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Case File Submission",
+    "body": "Oliver,\n\nPlease finalize and submit the Asheville gang task force case file to HQ by Friday. Let me know if you hit any blockers.\n\n-Amanda",
+    "time": "2070-07-25T09:44:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Range Certification",
+    "body": "Wyatt,\n\nYour firearms certification is expiring this month. Get with training to schedule requalification.\n\n-Amanda",
+    "time": "2070-07-27T15:29:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov"],
+    "subject": "Visitor Badges",
+    "body": "Maverick,\n\nWe’ll have DOJ auditors visiting next Thursday. Please arrange temporary badges and escort procedures.\n\nThanks,\nAmanda",
+    "time": "2070-07-30T08:15:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Wellness Briefing",
+    "body": "Rachel,\n\nHQ is rolling out a new wellness program. I’d like you to lead a short briefing on stress management for the field staff next week.\n\n-Amanda",
+    "time": "2070-08-01T14:02:00"
+  }
+]

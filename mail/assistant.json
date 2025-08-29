@@ -1,0 +1,114 @@
+[
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["noah.f.englund@fbi.gov"],
+    "subject": "Reminder: Timecard Submission",
+    "body": "Noah,\n\nYour timecard for pay period 14 hasn’t been submitted yet. Please complete it before COB today so payroll can process correctly.\n\nThanks,\nNick",
+    "time": "2070-07-10T08:45:00"
+  },
+  {
+    "sender_username": "noah.f.englund@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Re: Reminder: Timecard Submission",
+    "body": "Nick,\n\nThanks for the reminder. I was in the field yesterday and forgot to log my overtime hours. I’ll submit before lunch today.\n\n- Noah",
+    "time": "2070-07-10T09:12:00"
+  },
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["amelia.p.goulding@fbi.gov"],
+    "subject": "Leave Request Clarification",
+    "body": "Amelia,\n\nI received your leave request for July 24–26. Just confirm: will you be on call for urgent case consults during that time, or fully unavailable?\n\nNick",
+    "time": "2070-07-12T14:27:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Re: Leave Request Clarification",
+    "body": "Nick,\n\nFully unavailable — I’ll be out of state visiting family. I’ve already handed off my open reports to Oliver.\n\nThanks,\nAmelia",
+    "time": "2070-07-12T15:03:00"
+  },
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov"],
+    "subject": "Schedule Adjustment",
+    "body": "Maverick,\n\nThe quarterly systems check you planned for July 29 conflicts with SAC Garcia’s leadership briefing. Can you adjust to the morning of July 30 instead?\n\nNick",
+    "time": "2070-07-18T11:21:00"
+  },
+  {
+    "sender_username": "maverick.w.bell@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Re: Schedule Adjustment",
+    "body": "Nick,\n\nNo problem. I’ll shift the systems check to July 30 at 0800 and notify IT so they’re ready.\n\n- Maverick",
+    "time": "2070-07-18T12:02:00"
+  },
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Overtime Approval Needed",
+    "body": "Wyatt,\n\nYou logged 16 overtime hours for the past pay period. Please send me a quick justification note for those hours so I can finalize approval.\n\nNick",
+    "time": "2070-07-20T09:38:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Re: Overtime Approval Needed",
+    "body": "Nick,\n\nThe overtime was tied to the Greenville surveillance detail. We had extended evening coverage due to a suspect’s unexpected movements. I can provide logs if needed.\n\n- Wyatt",
+    "time": "2070-07-20T10:04:00"
+  },
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Medical Documentation",
+    "body": "Rachel,\n\nHR flagged your last leave entry as ‘medical’ but without supporting documentation. Could you upload the required note to the system by Friday?\n\nNick",
+    "time": "2070-07-22T08:19:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Re: Medical Documentation",
+    "body": "Nick,\n\nUnderstood. I’ll upload a doctor’s note this afternoon. The absence was due to a routine procedure, nothing that affects duty readiness.\n\n- Rachel",
+    "time": "2070-07-22T11:47:00"
+  },
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov"],
+    "subject": "Timekeeping Policy Update",
+    "body": "Marcus,\n\nCan you review the updated Bureau-wide timekeeping policy memo before I distribute? Legal’s sign-off is required since it includes language on comp time.\n\nNick",
+    "time": "2070-07-24T14:55:00"
+  },
+  {
+    "sender_username": "marcus.d.holloway@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Re: Timekeeping Policy Update",
+    "body": "Nick,\n\nI reviewed the memo. The language is compliant, though I’d recommend clarifying the section on telework overtime. I can draft suggested wording if you’d like.\n\n- Marcus",
+    "time": "2070-07-24T16:12:00"
+  },
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Travel Voucher",
+    "body": "Oliver,\n\nYour Charlotte field visit voucher is missing hotel receipts. Please upload them to the system or the travel claim will be rejected.\n\nNick",
+    "time": "2070-07-28T09:07:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Re: Travel Voucher",
+    "body": "Nick,\n\nI found the missing receipts — scanning and uploading now. Thanks for catching that.\n\n- Oliver",
+    "time": "2070-07-28T09:44:00"
+  },
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov"],
+    "subject": "July Leave Balances",
+    "body": "Amanda,\n\nHere’s the updated leave balance report for the unit. Several agents are approaching their use-or-lose threshold.\n\nNick",
+    "time": "2070-07-30T15:20:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Re: July Leave Balances",
+    "body": "Thanks Nick — I’ll remind folks in the next staff meeting to schedule their leave before year-end.\n\n- Amanda",
+    "time": "2070-07-30T16:11:00"
+  }
+]
