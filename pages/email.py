@@ -53,6 +53,7 @@ with columns[1]:
             selection_mode="single-row",
             key="selected_mail",
             hide_index=True,
+            height=600,
         )
     else:
         header = st.columns([2,1])
