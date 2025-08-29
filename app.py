@@ -10,6 +10,7 @@ page_dict = {
     "home": st.Page("pages/home.py", title="Unified Access Portal"),
     "email": st.Page("pages/email.py", title="FBI Email"),
     "vars": st.Page("pages/vars.py", title="V.A.R.S."),
+    "garfield": st.Page("pages/garfield.py", title="GARFIELD"),
     "login": st.Page("pages/login.py", title="Unified Access Portal", default=True),
 }
 
@@ -35,6 +36,13 @@ st.sidebar.page_link(
     icon=":material/visibility:",
     use_container_width=True,
 )
+if st.session_state.get("username") == "wyatt.e.turk@fbi.gov":
+    st.sidebar.page_link(
+        page_dict["garfield"],
+        label="GARFIELD",
+        icon=":material/globe:",
+        use_container_width=True,
+    )
 st.sidebar.page_link(
     page_dict["login"],
     label="Sign out",
