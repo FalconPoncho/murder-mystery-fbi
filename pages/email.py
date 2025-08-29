@@ -44,11 +44,11 @@ with columns[1]:
         selection = st.dataframe(
             st.session_state.all_mail.loc[:, ["sender_username", "subject", "time"]],
             column_order=("sender_username", "subject", "time"),
-            # column_config={
-            #     "id": st.column_config.Column(),
-            #     "Title": st.column_config.TextColumn(width=100),
-            #     "Text": st.column_config.TextColumn(),
-            # },
+            column_config={
+                "sender_username": st.column_config.TextColumn("From"),
+                "subject": st.column_config.TextColumn("Subject"),
+                "time": st.column_config.DatetimeColumn("Time", format="calendar"),
+            },
             on_select=open_mail,
             selection_mode="single-row",
             key="selected_mail",

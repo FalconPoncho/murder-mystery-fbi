@@ -32,7 +32,10 @@ All usage of V.A.R.S. is monitored and logged. Unauthorized use of V.A.R.S. is s
 
 st.set_page_config(layout="centered")
 
-videos = {"test": "static/videos/MurderFootage.mp4"}
+videos = {
+    "test": "static/videos/MurderFootage.mp4",
+    "test2": "static/videos/BreakinFootage.mp4",
+}
 
 st.title("Visual Archive Retrieval System")
 

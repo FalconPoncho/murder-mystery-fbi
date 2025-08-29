@@ -1,9 +1,9 @@
 [
     {
-        "sender_username": "amanda.garcia@fbi.gov",
+        "sender_username": "amanda.j.garcia@fbi.gov",
         "recipients": [
-            "marcus.holloway@fbi.gov",
-            "amanda.garcia@fbi.gov"
+            "marcus.d.holloway@fbi.gov",
+            "amanda.j.garcia@fbi.gov"
         ],
         "subject": "My subject",
         "body": "My body",
