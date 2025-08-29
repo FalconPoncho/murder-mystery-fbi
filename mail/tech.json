@@ -1,0 +1,128 @@
+[
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["iris.support@fbi.gov"],
+    "subject": "IRIS Bodycam Malfunctions – Asheville Deployment",
+    "body": "Team,\n\nWe’ve had three separate IRIS units drop neural feed during active surveillance. Local agents report the failure window lasted 4–6 minutes. Need a diagnostic push to determine if this is hardware degradation or software desync.\n\n- Wyatt",
+    "time": "2070-07-08T10:14:00"
+  },
+  {
+    "sender_username": "iris.support@fbi.gov",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Re: IRIS Bodycam Malfunctions – Asheville Deployment",
+    "body": "Section Chief Turk,\n\nLogs indicate packet loss consistent with RF interference. Recommend moving units to firmware 5.7.2 and reducing simultaneous feeds per hub.\n\n- IRIS Support Team",
+    "time": "2070-07-08T11:02:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["garfield.ops@fbi.gov"],
+    "subject": "GARFIELD Flagged False Positives",
+    "body": "Ops,\n\nGARFIELD flagged a dozen local news clips as deepfakes yesterday — all turned out authentic. That level of false positives will cripple trust with our media liaisons. Can you adjust sensitivity or retrain filters against southern U.S. regional accents?\n\n- Wyatt",
+    "time": "2070-07-11T15:26:00"
+  },
+  {
+    "sender_username": "garfield.ops@fbi.gov",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Re: GARFIELD Flagged False Positives",
+    "body": "Chief Turk,\n\nConfirmed issue: phoneme-matching thresholds are oversensitive to dialectal variance. We’ll roll out a patch next week to reduce false positives without lowering fraud detection accuracy.\n\n- GARFIELD Operations",
+    "time": "2070-07-11T16:10:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["mote.research@fbi.gov"],
+    "subject": "MOTE Operational Safety",
+    "body": "Research Team,\n\nLocal field office is concerned about the MOTE dust deployment in humid Appalachian environments. Can you provide assurance that atmospheric moisture won’t cause clumping and operational loss? Last thing we need is a trail of glitter on-site.\n\n- Wyatt",
+    "time": "2070-07-15T09:55:00"
+  },
+  {
+    "sender_username": "mote.research@fbi.gov",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Re: MOTE Operational Safety",
+    "body": "Chief Turk,\n\nHumidity tests show 8% efficiency loss at worst-case Appalachian summer levels. Recommend use of carbon-coated dispersal pods — prevents adhesion. Shipment en route.\n\n- MOTE Research Division",
+    "time": "2070-07-15T11:08:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov"],
+    "subject": "Experimental Tech Briefing",
+    "body": "Amanda,\n\nNeed you to block out 2 hours for a full tech orientation: IRIS update protocols, GARFIELD reliability thresholds, and MOTE handling procedures. Your squad will be first to field-test integration across all three.\n\n- Wyatt",
+    "time": "2070-07-19T14:33:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Re: Experimental Tech Briefing",
+    "body": "Wyatt,\n\nUnderstood. I’ll assemble the squad on the 21st at 0900. Expect detailed questions — morale is already shaky after the IRIS dropouts.\n\n- Amanda",
+    "time": "2070-07-19T15:12:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Time Allocation – Tech Oversight",
+    "body": "Nick,\n\nHQ is pressing for daily logs on how much manpower Asheville is dedicating to IRIS, GARFIELD, and MOTE. Can you coordinate with squad leads to submit hours logged under ‘experimental programs’ in their weekly reports?\n\n- Wyatt",
+    "time": "2070-07-24T08:22:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["deputy.dir.strattech@fbi.gov"],
+    "subject": "Progress Report – Asheville Pilot Programs",
+    "body": "Deputy Director,\n\nAsheville field testing is yielding mixed results: IRIS is working extremely well, GARFIELD false positives persist, and MOTE requires environmental adaptations. Recommend incremental rollout only after firmware and dispersal upgrades are field-verified.\n\nFull report attached.\n\n- Wyatt Turk",
+    "time": "2070-07-30T19:44:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["iris.support@fbi.gov"],
+    "subject": "Outstanding IRIS Performance in Asheville",
+    "body": "Team,\n\nI want to personally commend the IRIS engineering group. Despite field conditions, IRIS is delivering unparalleled clarity and continuity of evidence capture. Agents here are impressed — this is not just an incremental step but a generational leap in field awareness.\n\nKeep the momentum high. HQ is watching closely.\n\n- Wyatt",
+    "time": "2070-07-21T08:47:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov"],
+    "subject": "IRIS as Force Multiplier",
+    "body": "Amanda,\n\nMake sure your squads understand: IRIS isn’t just another gadget, it’s a force multiplier. Situational awareness, admissible evidence, officer safety — all rolled into one. I want Asheville to set the national standard for adoption.\n\nEvery successful deployment should be logged and highlighted.\n\n- Wyatt",
+    "time": "2070-07-22T10:03:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["noah.f.englund@fbi.gov", "amelia.p.goulding@fbi.gov"],
+    "subject": "Field Praise for IRIS",
+    "body": "Noah, Amelia,\n\nYour after-action notes on the raid yesterday were exactly what I’ve been waiting to see. IRIS playback gave a synchronized 360° neural record that no traditional bodycam could have matched. I’ve already flagged this example to HQ as proof-of-concept.\n\nKeep it up.\n\n- Wyatt",
+    "time": "2070-07-23T18:41:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["deputy.dir.strattech@fbi.gov"],
+    "subject": "Asheville IRIS Trial – Resounding Success",
+    "body": "Deputy Director,\n\nI am pleased to report that IRIS is exceeding expectations in the Asheville pilot. Agents on the ground are praising clarity, durability, and real-time linkage. These bodycams are not just reliable — they are revolutionizing casework integrity.\n\nI strongly recommend scaling the rollout to at least three additional field offices before year-end.\n\n- Wyatt",
+    "time": "2070-07-25T12:22:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov", "marcus.d.holloway@fbi.gov"],
+    "subject": "Highlight IRIS Wins",
+    "body": "Maverick, Marcus,\n\nStart gathering IRIS success stories from your squads. Even small operational wins — anything from improved officer coordination to a single piece of critical footage. I want Asheville to be the flagship example.\n\nSubmit by Friday.\n\n- Wyatt",
+    "time": "2070-07-27T09:15:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["iris.pmo@fbi.gov"],
+    "subject": "IRIS Asheville Pilot – Request for Site Visit",
+    "body": "Program Office,\n\nI strongly encourage HQ leadership to visit Asheville for a firsthand demonstration of IRIS. The synergy between operators and system is something that simply can’t be conveyed in reports. A site demo would silence skeptics once and for all.\n\nWhen can we schedule?\n\n- Wyatt",
+    "time": "2070-07-29T14:02:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Medical Validation of IRIS",
+    "body": "Rachel,\n\nCan you prepare a medical-legal assessment on IRIS neural safety and evidence reliability? Positive confirmation from the Forensic Medical Examiner will carry weight in HQ briefings.\n\nWe need to be ready to silence critics.\n\n- Wyatt",
+    "time": "2070-07-31T08:49:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["garfield.ops@fbi.gov"],
+    "subject": "IRIS + GARFIELD Integration",
+    "body": "Team,\n\nI see a future where IRIS feeds and GARFIELD authenticity verification run seamlessly side-by-side. This pairing could set an unbreakable evidentiary gold standard. Recommend beginning integration planning now.\n\n- Wyatt",
+    "time": "2070-08-01T11:33:00"
+  }
+]

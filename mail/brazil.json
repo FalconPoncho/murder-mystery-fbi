@@ -1,0 +1,23 @@
+[
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov"],
+    "subject": "PTO/Leave Request",
+    "body": "Hey Amanda,\n\nI need to go see my family, my dad isn't doing great. Do you mind if I take next week off? I know the passport protocol, I promise I'll be safe.\n\nRespectfully, Rachel",
+    "time": "2070-07-20T18:15:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Re: PTO/Leave Request",
+    "body": "Rachel,\n\nI'm so sorry to hear your father is doing badly. I'll pray for him.\n\nUnfortunately, now is a really bad time. Brazil has been ramping up intelligence ops here. It's only a matter of time before they find something out if you don't lay low for a while.\n\nMaybe an encrypted video call instead?\n\n-Amanda",
+    "time": "2070-07-21T07:59:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov"],
+    "subject": "Re: Re: PTO/Leave Request",
+    "body": "Understood. I guess that's the cost of freedom...\n\nRachel",
+    "time": "2070-07-21T09:15:00"
+  }
+]

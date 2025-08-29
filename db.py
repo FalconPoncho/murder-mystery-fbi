@@ -100,7 +100,11 @@ def init_db():
                 User(username="nick.k.anand@fbi.gov", password="amanda<3", real=True),
                 User(username="maverick.w.bell@fbi.gov", password="@ssk1cker", real=True),
                 User(username="ava.y.violet@fbi.gov", password="f0xyl@dy", real=True),
-                
+                User(username="iris.support@fbi.gov", real=False),
+                User(username="garfield.ops@fbi.gov", real=False),
+                User(username="mote.research@fbi.gov", real=False),
+                User(username="deputy.dir.strattech@fbi.gov", real=False),
+                User(username="iris.pmo@fbi.gov", real=False),
             ]
             session.add_all(users)
             session.commit()

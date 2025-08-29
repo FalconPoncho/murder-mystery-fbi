@@ -1,0 +1,16 @@
+[
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov"],
+    "subject": "Best Boss in the World",
+    "body": "Heyyy Amanda!! Your birthday's coming up in August right? What day is it again?\n\nYou deserve something special for all your hard work :) What are you turning, 23?\n\nNick",
+    "time": "2070-07-11T14:45:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Re: Best Boss in the World",
+    "body": "Nick,\n\nI haven't been 23 in a LONG time lol. It's August 12th! Excited to see what I have in store haha.\n\n-Amanda",
+    "time": "2070-07-11T15:12:00"
+  }
+]

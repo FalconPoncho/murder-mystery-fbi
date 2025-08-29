@@ -1,0 +1,100 @@
+[
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov"],
+    "subject": "Behavioral Profile Draft",
+    "body": "SAC Garcia,\n\nI’ve drafted an initial behavioral profile for the Greenville suspect based on interviews and surveillance logs. Expect impulsivity, nocturnal patterns, and a preference for familiar urban terrain. I’ll refine further once lab reports arrive.\n\n- Oliver",
+    "time": "2070-07-09T13:42:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Re: Behavioral Profile Draft",
+    "body": "Oliver,\n\nThanks. This aligns with Rachel’s forensic timeline. Go ahead and circulate the draft to the task force by end of day.\n\n- Amanda",
+    "time": "2070-07-09T14:11:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["rachel.m.moore@fbi.gov"],
+    "subject": "Psychological Evaluation Request",
+    "body": "Rachel,\n\nCan you send me your autopsy notes from case 70-114? I need to cross-reference physical trauma with likely offender intent patterns for the profile.\n\n- Oliver",
+    "time": "2070-07-12T10:18:00"
+  },
+  {
+    "sender_username": "rachel.m.moore@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Re: Psychological Evaluation Request",
+    "body": "Oliver,\n\nI’ll forward you my notes this afternoon. The injury distribution may help your analysis of ritualistic vs opportunistic motives.\n\n- Rachel",
+    "time": "2070-07-12T11:02:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["wyatt.e.turk@fbi.gov"],
+    "subject": "Interview Debrief",
+    "body": "Wyatt,\n\nRegarding your interview with the informant yesterday: did you notice any hesitation or incongruence when he described the timeline? Small discrepancies could indicate deceptive memory reconstruction.\n\n- Oliver",
+    "time": "2070-07-15T16:27:00"
+  },
+  {
+    "sender_username": "wyatt.e.turk@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Re: Interview Debrief",
+    "body": "Oliver,\n\nYes — he paused before mentioning the pickup location. I flagged it but didn’t press. Want me to schedule a follow-up with him?\n\n- Wyatt",
+    "time": "2070-07-15T17:02:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["nick.k.anand@fbi.gov"],
+    "subject": "Wellness Check Scheduling",
+    "body": "Nick,\n\nPer Bureau policy, I need to conduct quarterly wellness sessions with field agents. Can you provide me with an updated roster so I can stagger appointments without disrupting ops?\n\n- Oliver",
+    "time": "2070-07-18T09:33:00"
+  },
+  {
+    "sender_username": "nick.k.anand@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Re: Wellness Check Scheduling",
+    "body": "Oliver,\n\nRoster attached. Stagger them across low-tempo weeks where possible — especially for Noah and Wyatt, who are both on heavy rotation this month.\n\n- Nick",
+    "time": "2070-07-18T10:01:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["amelia.p.goulding@fbi.gov"],
+    "subject": "Case Consultation",
+    "body": "Amelia,\n\nThe suspect’s journal you recovered contains repeated references to mirrors and reflections. This suggests possible identity fragmentation. Did you find any physical evidence in the room that might support dissociative behavior?\n\n- Oliver",
+    "time": "2070-07-22T13:14:00"
+  },
+  {
+    "sender_username": "amelia.p.goulding@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Re: Case Consultation",
+    "body": "Oliver,\n\nYes — the windows were covered in aluminum foil, and several personal items were defaced. Matches your dissociation hypothesis.\n\n- Amelia",
+    "time": "2070-07-22T13:48:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["marcus.d.holloway@fbi.gov"],
+    "subject": "Court Testimony Prep",
+    "body": "Marcus,\n\nI’m scheduled to testify in the Raleigh case on July 29. Can we meet beforehand to align my psych assessment testimony with the evidentiary narrative you’ll present?\n\n- Oliver",
+    "time": "2070-07-25T08:25:00"
+  },
+  {
+    "sender_username": "marcus.d.holloway@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Re: Court Testimony Prep",
+    "body": "Oliver,\n\nYes — let’s sit down on the 26th at 1400. I’ll bring the prosecution’s outline so you can tailor your remarks accordingly.\n\n- Marcus",
+    "time": "2070-07-25T09:01:00"
+  },
+  {
+    "sender_username": "oliver.h.cox@fbi.gov",
+    "recipients": ["maverick.w.bell@fbi.gov"],
+    "subject": "Incident Stress Debrief",
+    "body": "Maverick,\n\nI’d like to schedule a short debrief with you following last week’s system failure incident. Even for tech staff, sudden operational disruptions can generate stress reactions worth addressing early.\n\n- Oliver",
+    "time": "2070-07-31T15:37:00"
+  },
+  {
+    "sender_username": "maverick.w.bell@fbi.gov",
+    "recipients": ["oliver.h.cox@fbi.gov"],
+    "subject": "Re: Incident Stress Debrief",
+    "body": "Oliver,\n\nAppreciate it. Let’s set a time after the weekend — Monday morning works best.\n\n- Maverick",
+    "time": "2070-07-31T16:02:00"
+  }
+]
