@@ -67,4 +67,6 @@ with columns[1]:
         st.header(st.session_state.open_mail["subject"])
         st.write(st.session_state.open_mail["body"])
         if attachment := st.session_state.open_mail.get("attachment"):
-            st.video(attachment)
+            view_attachment = st.button("1 attachment")
+            if view_attachment:
+                st.video(attachment)
