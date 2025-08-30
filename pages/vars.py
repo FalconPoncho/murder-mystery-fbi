@@ -33,8 +33,8 @@ All usage of V.A.R.S. is monitored and logged. Unauthorized use of V.A.R.S. is s
 st.set_page_config(layout="centered")
 
 videos = {
-    "test": "static/videos/MurderFootage.mp4",
-    "test2": "static/videos/BreakinFootage.mp4",
+    "l48i2grj": "static/videos/MurderFootage.mp4",
+    "58hauv0l": "static/videos/BreakinFootage.mp4",
 }
 
 st.title("Visual Archive Retrieval System")
@@ -54,7 +54,7 @@ if accepted_tos:
         )
         submitted = st.form_submit_button()
         if submitted:
-            if code in videos:
+            if code.lower() in videos:
                 st.video(videos[code])
             else:
                 st.error(INVALID)
