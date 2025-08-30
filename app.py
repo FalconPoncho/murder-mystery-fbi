@@ -8,6 +8,7 @@ st.sidebar.image("static/images/fbi_logo_bw.png")
 
 page_dict = {
     "home": st.Page("pages/home.py", title="Unified Access Portal"),
+    "news": st.Page("pages/news.py", title="News"),
     "email": st.Page("pages/email.py", title="FBI Email"),
     "vars": st.Page("pages/vars.py", title="V.A.R.S."),
     "garfield": st.Page("pages/garfield.py", title="GARFIELD"),
@@ -22,6 +23,12 @@ st.sidebar.page_link(
     page_dict["home"],
     label="Home",
     icon=":material/house:",
+    use_container_width=True,
+)
+st.sidebar.page_link(
+    page_dict["news"],
+    label="News",
+    icon=":material/news:",
     use_container_width=True,
 )
 st.sidebar.page_link(
