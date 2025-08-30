@@ -16,14 +16,14 @@
   {
     "sender_username": "jackmoore@neuralink.com",
     "recipients": ["wyatt.e.turk@fbi.gov"],
-    "subject": "Call me",
-    "body": "Agent Turk,\n\nWe have a bit of a situation. Cleanup on aisle 2...\n\nJack Moore\n\nSenior Product Owner\n\nNeuralink, Inc.",
+    "subject": "Pick Up",
+    "body": "Agent Turk,\n\nWe have a bit of a situation...call me ASAP.\n\nJack Moore\n\nSenior Product Owner\n\nNeuralink, Inc.",
     "time": "2070-07-28T15:01:00"
   },
   {
     "sender_username": "wyatt.e.turk@fbi.gov",
     "recipients": ["jackmoore@neuralink.com"],
-    "subject": "Re: Call me",
+    "subject": "Re: Pick Up",
     "body": "Jack,\n\nThis is too big to fix. I'm not wiping your ass when you shit yourself.",
     "time": "2070-07-28T15:53:00"
   },

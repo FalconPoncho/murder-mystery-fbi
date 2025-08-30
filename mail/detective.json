@@ -1,0 +1,37 @@
+[
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["ronald.f.lee@fbi.gov"],
+    "subject": "Special Agent Holloway Dead",
+    "body": "Director Lee,\n\nI just got a call from Asheville PD that Special Agent Marcus Holloway was shot. I'm not sure of much more right now. I'll call you as soon as I have more details.\n\nAmanda Garcia\n\nSpecial Agent in Charge\n\nFBI Asheville",
+    "time": "2070-08-01T10:21:00"
+  },
+  {
+    "sender_username": "ronald.f.lee@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov"],
+    "subject": "Re: Special Agent Holloway Dead",
+    "body": "I'm so sorry to hear that Amanda. I know you two used to be close. Please keep me updated.\n\nV/r,\n\nDirector Lee",
+    "time": "2070-08-01T11:03:00"
+  },
+  {
+    "sender_username": "maverick.w.bell@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov", "nick.k.anand@fbi.gov"],
+    "subject": "Holloway Murder Weapon",
+    "body": "Team,\n\nI just entered the gun into the National Firearm Registry. It popped as already being here at the FBI inside our evidence room. We've had it there since it was picked up off the street a while back, some case that didn't go anywhere.\n\nI don't know what this means, but I needed to tell you immediately.\n\n - Maverick",
+    "time": "2070-08-01T16:34:00"
+  },
+  {
+    "sender_username": "amanda.j.garcia@fbi.gov",
+    "recipients": ["ronald.f.lee@fbi.gov", "maverick.w.bell@fbi.gov", "nick.k.anand@fbi.gov"],
+    "subject": "Re: Holloway Murder Weapon",
+    "body": "Adding in Director Lee. This means his killer knows somebody at the Asheville office, at the very least.\n\nAmanda Garcia\n\nSpecial Agent in Charge\n\nFBI Asheville",
+    "time": "2070-08-01T16:34:00"
+  },
+  {
+    "sender_username": "ronald.f.lee@fbi.gov",
+    "recipients": ["amanda.j.garcia@fbi.gov", "maverick.w.bell@fbi.gov", "nick.k.anand@fbi.gov"],
+    "subject": "OPR Representative Inbound",
+    "body": "Asheville Team,\n\nConsidering the high likelihood that Special Agent Holloway's death involved employees of FBI Asheville, I have no choice but to let OPR step in.\n\nAgent Matthew Cohen will be showing up on Wednesday. He's been on ice since he was shot back in '31, and HQ is defrosting him just for this. I hope you are able to give him a warm welcome and bring him up to speed, despite the circumstances.\n\nV/r,\n\nDirector Lee",
+    "time": "2070-08-04T12:35:00"
+  }
+]

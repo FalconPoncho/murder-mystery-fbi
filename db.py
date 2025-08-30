@@ -107,6 +107,7 @@ def init_db():
                 User(username="deputy.dir.strattech@fbi.gov", real=False),
                 User(username="iris.pmo@fbi.gov", real=False),
                 User(username="jackmoore@neuralink.com", real=False),
+                User(username="ronald.f.lee@fbi.gov", real=False),
             ]
             session.add_all(users)
             session.commit()
